@@ -14,21 +14,13 @@ frecv = np.abs(data_transff[:len(data_transff)])
 
 print(frecv[1000])
 print(frecv[970])
-
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>PROC>>>
 index = 0
-
-
 for f in frecv:
-    
     if index > 950 and index < 1050:
         frecv[index] = frecv[index] + 100
-        
-    
-        
     index += 1
 
-	
 print(frecv[1000])
 print(frecv[970])
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>OUTPUT>>>
